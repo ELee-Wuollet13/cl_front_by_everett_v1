@@ -5,6 +5,8 @@ import Footer from './components/Footer.jsx'
 import About from './components/About.jsx'
 import logo from './logo.svg';
 import './App.css';
+import Calendar from 'react-calendar';
+import Clock from 'react-clock';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Header/>
       </div>
       <Main/>
+      <Calendar/>
+      <Clock/>
       <About/>
       <Footer/>
     </div>

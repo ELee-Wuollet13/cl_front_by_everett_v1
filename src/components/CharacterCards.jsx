@@ -24,7 +24,7 @@ function CharacterCards(props){
     <img className='profileImg' src={props.image.aquarius || props.image.aries || props.image.cancer || props.image.capricorn || props.image.gemini || props.image.leo || props.image.libra || props.image.pisces || props.image.sagittarius || props.image.scorpio || props.image.taurus || props.image.virgo}/>
   </FrontSide>
   <BackSide>
-    <img className='profileImg' src={props.image2.pisces || props.image2.sagittarius || props.image2.scorpio || props.image2.taurus || props.image2.virgo || props.image2.aries}/>
+    <img className='profileImg' src={props.image2.aquarius || props.image2.aries || props.image2.cancer || props.image2.capricorn || props.image2.gemini || props.image2.leo || props.image2.libra || props.image2.pisces || props.image2.sagittarius || props.image2.scorpio || props.image2.taurus || props.image2.virgo}/>
   </BackSide>
   </Flippy>
     <div className='charInfo'>
@@ -48,7 +48,7 @@ function CharacterCards(props){
         height: 600px;
 
       }
-      .charName{
+      .charName {
         text-align: center;
         color: white;
         border: 1px solid white;
